@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <!--<script src="script.js" defer></script>-->
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css"/>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
+</head>
+<body>
+	<section>
+		<div class="home">
+			<div class="orange-line"></div>
+			<div class="logo_container">
+				<div class="logo">
+						<img src="image/logo.png">
+						<div class="text-logo">
+							<p>Company name</p>
+							<span>Tag Line Goes Here</span>
+						</div>
+				</div>
+				<div class="menu">
+					<nav>
+						<div class="topnav-icon">
+				       		<a href="#" id="menu" class="icon">&#9776;</a>
+				       	</div>
+						<div class="topnav" id="myTopnav">
+							<ul>
+								<li><a href="#">Home</a></li>
+				        		<li><a href="#">About us</a></li>
+				        		<li><a href="#">Testimonials</a></li>
+				       			<li><a href="#">Contacts Us</a></li>
+				       		</ul>
+				       	</div>
+				       	
+					</nav>
+
+				</div>
+			</div>
+			<div class="title_home">
+				<h1>Hello</h1>
+				<p>We are online clinic</p>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="about_us container">
+			<div class="about_container">
+				<div class="icon-text">
+					<div class="block-icon"><img src="image/icon-1.png"></div>
+					<p>Lorem ipsum dolor sit amet</p>
+				</div>
+				<div class="icon-text">
+					<div class="block-icon blue"><img src="image/icon-2.png"></div>
+					<p>Lorem ipsum dolor sit amet</p>
+				</div>
+				<div class="icon-text">
+					<div class="block-icon"><img src="image/icon-3.png"></div>
+					<p>Lorem ipsum dolor sit amet</p>
+				</div>
+			</div>
+		</div>
+		<div class="about_wind">
+			<h2>About us</h2>
+			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+		</div>
+	</section>
+	<section>
+		<div class="container testimonials">
+			<div class="one-time slider">
+				 <div><img src="image/browser-1.png"></div>
+				 <div><img src="image/browser-1.png"></div>
+				 <div><img src="image/browser-1.png"></div>
+				 <div><img src="image/browser-1.png"></div>
+			</div>
+		
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    	<script type="text/javascript" src="slick/slick/slick.min.js"></script>
+    			
+		<script type="text/javascript">
+
+		    	$(document).on('ready', function(){
+		    		$(".one-time").slick({
+		    			dots: true,
+		    			infinite: true,
+		    			centerMode: true,
+		    			slidesToShow: 3,
+		    			slidesToScroll: 3
+		    		});
+		    	});
+		</script>
+		
+		</div>   
+	</section>
+	
+	<section class="reviews container">
+		
+		<div class="two-time">
+			<div class="reviews-block">
+				<div class="circle"><div><img src="image/client.png"></div></div>
+				<div class="text-reviews">
+					<h4>Alice G. Mullins</h4>
+					<span>General Physician</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			<div class="reviews-block">
+				<div class="circle"><div><img src="image/client.png"></div></div>
+				<div class="text-reviews">
+					<h4>Alice G. Mullins</h4>
+					<span>General Physician</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			<div class="reviews-block">
+				<div class="circle"><div><img src="image/client.png"></div></div>
+				<div class="text-reviews">
+					<h4>Alice G. Mullins</h4>
+					<span>General Physician</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+						
+						$('.two-time').slick({
+  							dots: true,
+  							speed: 300,
+  							slidesToShow: 1,
+  							adaptiveHeight: true
+							});
+        					
+        				
+        				$('.two-time').slick();
+
+    			</script>    
+	</section>
+	<section class="bullet-points container">
+		<div class="text-bullet">
+			<h4>Lorem ipsum dolor sit amet</h4>
+			<span>Sed do eiusmod tempor</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="bullet-circle"></div>
+	</section>
+	<section class="footer container">
+		<div class=footer-container>
+			<div class="social">
+				<div class="logo">
+						<img src="image/logo.png">
+						<div class="text-logo">
+							<h5>Company name</h5>
+							<span>Tag Line Goes Here</span>
+							
+						</div>
+				</div>
+				<div class="social-likes">
+					<img src="image/facebook.png">
+					<img src="image/twitter.png">
+					<img src="image/pinterest.png">
+					<img src="image/linkedin.png">
+				</div>
+
+				<div class="clearfix"></div>
+
+				<!--<div class="social-likes">
+					<i class="fab-facebook fa-facebook"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fab fa-pinterest"></i>
+					<i class="fab fa-linkedin"></i>
+				</div>-->
+				<div class="social-text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr, sunt in culpa qui officia.</p><br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr, sunt in culpa qui officia.</p><br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr, sunt in culpa qui officia.</p>
+			</div>
+			</div>
+
+			<div class="latest-post">
+				<div class="latest-1">
+					<h6>Latest post</h6>
+					<div class="square"></div>
+					<div class="square"></div>
+					<div class="square"></div>
+				</div>
+				<div class="latest-2">
+					<h6>Lorem ipsum dolor sit amet...</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><br>
+					<h6>Lorem ipsum dolor sit amet...</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p><br>
+					<h6>Lorem ipsum dolor sit amet...</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+				</div>			
+			</div>
+		</div>
+		
+	</section>
+
+	<section class="footer-bar container">
+		<div class="bar-container">
+			<p  class="left">Terms of Us | Privacy & cookies</p>
+			<p class="right">Copyright &copy; 2016. All rights reserved.</p>
+		</div>
+	</section>
+
+
+	<script src="script.js"></script>
+
+</body>
+</html>
