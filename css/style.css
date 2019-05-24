@@ -177,7 +177,13 @@ h1
 	margin-top: -630px;
 	margin-left: 185px;
 }
-
+@media screen and (max-width: 620px)
+{
+.about_wind
+{
+	display: none;
+}
+}
 @media screen and (max-width: 1200px)
 {
 	.about_wind
@@ -376,13 +382,11 @@ h2:after
 .testimonials .slick-prev
 {
 	display: block;
-	background: black;
 	left: 50px;
 }
 .testimonials .slick-next
 {
 	display: block;
-	background: black;
 	right: 50px;
 }
 .testimonials .slick-list
@@ -547,5 +551,5 @@ h2:after
 .right
 {
 	float: right;
-	padding-right: 70px;s
+	padding-left: 70px;
 }
